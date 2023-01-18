@@ -1,0 +1,268 @@
+@media  (max-width: 480px) {
+    .title-logo{
+        height: 30px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+     .navbar{
+         flex-direction: column;
+     }
+     .menu{
+         display: block;
+         position: absolute;
+         right: 15px;
+         top: 10px;
+     }
+     .title-nav{
+         width: 100%;
+     }
+     .nav-list{
+         display: none;
+        width: 100%;
+        text-align: center; 
+        padding-top:10px ;
+     }
+     .nav-list .list-items{
+         display: block;
+         border-top: 1px solid white;
+         padding-top: 10px;
+     
+     }
+     .active-menu{
+         display: block;
+     }
+     /* Header-sections */
+     .brand-group-sections {
+        width: 100%;
+        margin: 3em auto 3em;
+
+     }
+     .brand-group-sections h1 {
+        font-size: 35px;
+        line-height: 39px;
+        text-align: center;
+        font-weight: 700;
+        padding: 0.5rem;
+
+     }
+     .brand-expolore-people {
+        width: 90%;
+     }
+     .Features-sections {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .Features-img-sections{
+        display: flex;
+        flex-direction: column;
+    }
+    .Features-img-sections .features-img img {
+        width: 287px;
+        height: 263px;
+    }
+    .Features-love-sections {
+        flex-direction: column;
+    }
+    /* .Features-love-img-section img {
+        width: 100%;
+    } */
+    .Ten-years-templated {
+        position: initial;
+        
+    }
+    .Some-facts-title {
+        width: 100%;
+    }
+    .Some-facts-award-sections {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 31px;
+    }
+    .Sponsors-icons {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 17px;
+
+    }
+    .Ten-years-templated {
+        width: 248px;
+        height: 149px;
+    }
+    .Ten-years-templated h2 {
+        font-size: 50px;
+        line-height: 46px;
+    }
+    .Ten-years-templated span {
+        font-size: 27px;
+    }
+
+
+ }
+ @media (min-width: 500px) and (max-width:767.98px) {
+    
+    .brand-group-sections{
+        width: 100%;
+    }
+    .Features-sections {
+        display: block;
+
+    }
+    .Features-img-sections .features-img img {
+        width: 132px;
+        height: 139px;
+    }
+    .features-descriptions-title h3 {
+        font-size: 38px;
+        line-height: 42px;
+    }
+    .features-descriptions-paragraphText p {
+        font-size: 14px;
+        line-height: 23px;
+
+    }
+   
+ }
+
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .brand-group-sections {
+        width: 100%;
+
+    }
+    .Features-img-sections .features-img img {
+        width: 132px;
+        height: 139px;
+    }
+    .features-descriptions-title h3 {
+        font-size: 38px;
+        line-height: 42px;
+    }
+    .features-descriptions-paragraphText p {
+        font-size: 14px;
+        line-height: 23px;
+
+    }
+    .Features-sections{
+        gap:40px;
+    }
+    .Features-love-sections{
+        gap: 38px;
+        width: 90%;
+    }
+    .Features-love-template-areas h3 {
+        font-size: 18px;
+        line-height: 8px;
+        padding: 0 0 9px 0;
+
+    }
+    .Features-love-template-areas p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .Features-love-title h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 38px;
+
+    }
+    .Features-love-title p {
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+    .Ten-years-templated {
+        width: 199px;
+        height: 104px;
+        top: 39em;
+        right: 9.4em;
+        padding: 22px 0;
+
+    }
+    .Ten-years-templated h2 {
+        font-size: 33px;
+        line-height: 30px;
+    }
+    .Ten-years-templated span {
+        font-size: 22px;
+
+    }
+    .Some-facts-title {
+        width: 100%;
+    }
+    .Some-facts-title h2 {
+        font-size: 36px;
+        line-height: 29px;
+        
+    }
+    .Some-facts-award-sections {
+        gap: 10px;
+    }
+    .Some-facts-awards {
+        padding: 16px 0;
+    }
+    .Sponsors-title h2{
+        font-size: 36px;
+        line-height: 29px;
+    }
+    .Sponsors-icons {
+        padding: 0px 20px;
+        text-align: center;
+        gap: 20px;
+        overflow: hidden;
+
+    }
+    
+  }
+  @media (min-width: 991.99px) and (max-width: 1199.98px){ 
+    
+    .brand-group-sections {
+        width: 80%;
+    }
+    .Features-img-sections .features-img img {
+        width: 190px;
+        height: 188px;
+    }
+    .Features-sections{
+        gap:56px;
+    }
+    .Features-love-sections{
+        width: 90%;
+    }
+    .Ten-years-templated {
+        width: 257px;
+        height: 155px;
+        top: 43em;
+        right: 13em;
+    }
+    .Ten-years-templated h2 {
+        font-size: 55px;
+    }
+    .Some-facts-title {
+        width: 100%;
+    }
+    .Some-facts-title h2 {
+        font-size: 36px;
+        line-height: 29px;
+        
+    }
+    .Some-facts-award-sections {
+        gap: 18px;
+    }
+    .Sponsors-icons {
+        gap: 29px;
+
+    }
+
+  }
+
+  @media (min-width: 1499.98px) {
+    .Ten-years-templated {
+        position: absolute;
+        width: 387px;
+        height: 203px;
+        top: 79em;
+        right: 45em;
+        color: white;
+        padding: 39px 0;
+
+    }
+  }
